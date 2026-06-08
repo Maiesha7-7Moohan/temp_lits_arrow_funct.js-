@@ -18,7 +18,7 @@ const generateUserCard = (name, role, status) =>
     <span class="badge ${status === "active" ? "bg-success" : "bg-danger"}">${status}</span>
 </div>`.trim();
 // Ternary Operator: A quick, one-line if/else shortcut that picks "bg-success" (green) if the status is active, or "bg-danger" (red) if it is anything else.
-// Template Literals: A JavaScript feature that lets you inject the dynamic value of the status variable directly into your HTML text.
+// Template Literals: A JavaScript feature that lets you put in the dynamic value of the status variable directly into your HTML text.
 // The .trim() method is used to remove any extra whitespace from the beginning and end of the HTML string, ensuring it looks clean.
 
 // Point 3: Arrow Function Conversion
@@ -40,7 +40,6 @@ console.log("\n");
 
 const sourceNumbers = [1, 2, 3, 4, 5, 6];
 
-// Using arrow functions inside map and filter methods
 const squaredEvenNumbers = sourceNumbers
   .filter((num) => num % 2 === 0)
   // It looks at every number in your original list and keeps only the ones that are perfectly divisible by 2
