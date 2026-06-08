@@ -5,7 +5,7 @@ Things to know:
 - Coding is fun
 - Pinterest is a great source of inspiration`;
 
-console.log("--- Multiline String Output ---");
+console.log("---> Multiline String Output <---");
 console.log(stufftoKnow);
 console.log("\n");
 
@@ -22,7 +22,7 @@ const generateUserCard = (name, role, status) =>
 // The .trim() method is used to remove any extra whitespace from the beginning and end of the HTML string, ensuring it looks clean.
 
 // Point 3: Arrow Function Conversion
-console.log("--- HTML Generation Output ---");
+console.log("---> HTML Generation Output <---");
 const htmlOutput = generateUserCard(
   "Alexis Meade",
   "Magazine Publisher",
@@ -34,7 +34,7 @@ console.log("\n");
 // Point 4: Array Methods with Arrow Functions
 const calculateArea = (width, height) => width * height;
 
-console.log("--- Arrow Function Conversion ---");
+console.log("---> Arrow Function Conversion <---");
 console.log(`Area of 10x5 rectangle: ${calculateArea(10, 5)}`);
 console.log("\n");
 
@@ -42,9 +42,9 @@ const sourceNumbers = [1, 2, 3, 4, 5, 6];
 
 const squaredEvenNumbers = sourceNumbers
   .filter((num) => num % 2 === 0)
-  // It looks at every number in your original list and keeps only the ones that are perfectly divisible by 2
+  // It looks at every number in the original list and keeps only the ones that are perfectly divisible by 2
   .map((num) => num ** 2);
-// It takes those remaining even numbers and multiplies each one by itself to calculate its square.
+// It then takes the remaining even numbers and multiplies each one by itself to calculate the square.
 
 console.log("--- 4. Array Methods with Arrow Functions ---");
 console.log("Original Array:", sourceNumbers);
